@@ -79,11 +79,11 @@
 
 //CHALLENGE: PRINT AN ASSOCIATE ARRAY USING FOR EACH (USE AGE E.G. FROM BEFORE)
 
-    $ages = array(
-    "John" => 35,
-    "Mary" => 27,
-    "Bob" => 55
-);
+//     $ages = array(
+//     "John" => 35,
+//     "Mary" => 27,
+//     "Bob" => 55
+// );
 
     // foreach($ages as $age){
     //     echo $age.' <br />'; // doesn't give us the key, just prints the ages
@@ -91,8 +91,124 @@
 
 //CHALLENGE: PRINT KEY[VALUE] AS WELL WITH AGE (hint: use built in method)
 
-    foreach($ages as $key => $age){
-        echo $key.' is '.$age.' years old. <br />';
-    }
+    // foreach($ages as $key => $age){
+    //     echo $key.' is '.$age.' years old. <br />';
+    // }
+
+
+
+
+
+// FUNCTIONS AND IF STATEMENTS
+
+
+//Challenge print a string that says 'helloWorld'
+    // function greet(){
+    //     echo 'HelloWorld!';
+    // }
+    // greet();
+
+//CHALLENGE: WRITE A FUNCTION THAT ACCEPTS A NAME PARAMETER
+
+    // function greet($name){
+    //     echo 'Hello '.$name;
+    // }
+    // greet ('World'); //prints 'Hello World'
+
+//CHALLENGE: WRITE A FUNCTIONS THAT TAKES IN TWO ARGUMENTS AND TWO CALLBACKS
+
+    // function greet($greeting, $name){
+    //     echo $greeting.' '.$name.'!';
+    // }
+    //     greet(Hello, Jason); // prints 'Hello Jason!'
+
+//NOTE - A DYNAMIC ARGUMENT (IN CALLBACK FUNCTION) WILL MOST ALWAYS REPLACE DEFUALT VALUE:
+
+    // function greet($greeting, $name = 'Justin'){
+    //     echo $greeting. ' '.$name.'?!';
+    // }
+    //     greet('What\'s up', 'Jason');
+
+//CHALLENGE - make the output all upper case
+
+    // function greet($greeting, $name){
+    //     echo strtoupper($greeting.' '.$name.'?!');
+    // }
+    //     greet('Whats up', 'man');
+
+
+
+
+//if statements and variables 
+
+// $num1 = 234;
+// $num2 = 5000;
+
+// if($num = 234){
+//     echo 'true'; //return true
+// }
+
+// if($num == 234){
+//     echo 'true';
+// } else {
+//     echo 'false';
+// }
+
+//USE != operator
+
+// if($num != 1){
+//     echo 'true';
+// } else {
+//     echo 'PLEASE TRY AGAIN';
+// }
+
+// use < or > or = operator
+
+    // if($num < 10){
+    //     echo 'true';
+    // } 
+
+// compare values
+// if($num1 < $num2){
+//     echo 'true';
+// } else {
+//     echo 'false';
+// }
+//returns 'true' which is correct, 234 is < 5000
+
+//CHALLENGE US AN ELSE/IF STATEMENTS
+
+// $num1 = 50;
+
+// if($num1 == 40){
+//     echo 'true';
+// } elseif($num1 == 50){   //elseif is basically an OR operator similar to rewrite below
+//     echo 'true';
+// } else {
+//     echo 'false';
+// }
+
+
+//CHALLENGE: USE A COMPARISON OPERATOR INSTEAD the OR operator
+    // (make note: make sure to use loosely == or else function won't compute properly)
+
+// $num1 = 30;
+
+// if($num1 == 50 || $num1 == 40){
+//     echo 'true';
+// } else {
+//     echo 'false';
+// }
+
+//CHALLENGE: use an or and operator together
+
+$num1 = 50;
+$num2 = 4568;
+
+if($num1==50 && $num2 == 498){ //both values must equal true
+    echo 'true';
+} else {
+    echo 'false';
+}
 
 ?>

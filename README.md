@@ -1,7 +1,6 @@
 # phpShareBoard
 
-* PHP Learn OO PHP – build a complete website AMPPS stack
-    * Apache, MySQL, Php, Softaculous
+* PHP Learn OO PHP – build a complete website AMPPS stack (Apache, MySQL, Php, Softaculous)
 
 * An app with a complete login/application registration
 * Long in and post “shares” (mini posts with title, body and link to a resource; article)
