@@ -1,10 +1,10 @@
 # phpShareBoard
 
-*PHP Learn OO PHP – build a complete website AMPPS stack
+* PHP Learn OO PHP – build a complete website AMPPS stack
 
-*An app with a complete login/application registration
-*Long in and post “shares” (mini posts with title, body and link to a resource; article)
-*ShareBoard built on a custom MVC framework built from scratch
+* An app with a complete login/application registration
+* Long in and post “shares” (mini posts with title, body and link to a resource; article)
+* ShareBoard built on a custom MVC framework built from scratch
 
 Concepts that this project covers:
 1.	OOP PHP
