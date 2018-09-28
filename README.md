@@ -1,6 +1,6 @@
 # phpShareBoard
 
-* PHP Learn OO PHP – build a complete website AMPPS stack (Apache, MySQL, Php, Softaculous)
+* PHP Learn OO PHP – build a complete website w bootstrap and AMPPS stack (Apache, MySQL, Php, Softaculous)
 
 * An app with a complete login/application registration
 * Long in and post “shares” (mini posts with title, body and link to a resource; article)
@@ -9,7 +9,7 @@
 Concepts that this project covers:
 1.	OOP PHP
 2.	Classes & Objects
-3.	Methods & Properties
+3.	(Magic) Methods & Properties & Inheritance
 4.	MVC – Model View Controller
 5.	MySQL
 6.	Data-Binding

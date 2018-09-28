@@ -1,6 +1,6 @@
  
 <?php
-   // echo 'It\'s Alive!';
+    echo ' index.php';
 
     //$myVar1 = 'Hello';
     //$myVar2 = 'World!';
@@ -202,13 +202,46 @@
 
 //CHALLENGE: use an or and operator together
 
-$num1 = 50;
-$num2 = 4568;
+// $num1 = 50;
+// $num2 = 4568;
 
-if($num1==50 && $num2 == 498){ //both values must equal true
-    echo 'true';
-} else {
-    echo 'false';
-}
+// if($num1==50 && $num2 == 498){ //both values must equal true
+//     echo 'true';
+// } else {
+//     echo 'false';
+// }
+
+//QUIZ: (Knowledge Check)
+
+//1. WHERE DOES PHP RUN?
+    //server-side
+//2. Which one of these stacks is not real?
+    //a. Xampp
+    //b. Mamp
+    //c. Zampp -------
+    //d. Wamp 
+//3. Which is not a legal variable in PHP?
+    //a. $myVar1
+    //b. $myVar1
+    //c. $my_var
+    //d. $my-var ------
+
+//4. Which loop type is made to iterate through arrays?
+    //ForEach loop
+
+//5. In a conditional statement, which is the correct characters for "OR"?
+    // || (double pipes)
+
+
+
+
+// LECTURE 2.2 OOP OVERVIEW video 8 of 32
+
+
+
+
+
+
+
 
 ?>
